@@ -13,10 +13,11 @@ const config = {
   repo:  'gh-pr-release-test',
   head,
   base:  'release',
+  collectAllPRs: true,
 }
 
 release(config).then(function (pullRequest) {
   // success
   console.log(pullRequest)
-})
+}).catch(console.error)
 

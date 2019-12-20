@@ -139,10 +139,9 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-github-pr-release@^1.3.2:
+"github-pr-release@http://github.com/meetsmore/github-pr-release#master":
   version "1.3.2"
-  resolved "https://registry.yarnpkg.com/github-pr-release/-/github-pr-release-1.3.2.tgz#7e4790f3e6952de6062ea2e40b5cf77221734890"
-  integrity sha512-7M43N0vK2roKVYIb+8s46rDBYZQJPZtVJxD6TUpal93mgLoo69fIMmgiSxn/Jwlbp24KQMH7f7znxIRiiNz8sQ==
+  resolved "http://github.com/meetsmore/github-pr-release#9e727666a7d3de679fcbc052e079a53622bf7888"
   dependencies:
     es6-promise "^2.3.0"
     moment "^2.9.0"

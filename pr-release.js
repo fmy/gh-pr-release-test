@@ -13,6 +13,7 @@ const config = {
   repo:  'gh-pr-release-test',
   head,
   base:  'release',
+  template: path.join(__dirname, 'pr-release.mustache'),
   collectAllPRs: true,
 }
 

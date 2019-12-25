@@ -1,5 +1,6 @@
 require('dotenv').config()
 
+const path = require('path')
 const release = require('github-pr-release')
 
 const head = process.argv[2]
